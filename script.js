@@ -126,7 +126,7 @@ const start = () => {
       startTime = new Date().getTime();
     }
     count--;
-  }, 1000);
+  }, 800);
 };
 
 // START Countdown
@@ -143,3 +143,10 @@ setInterval(() => {
 
   document.getElementById("show-time").innerHTML = `${startTime ? timeSpent.toFixed(0) : 0} seconds`;
 }, 1000);
+
+
+//Going to blog page
+
+ document.getElementById("go-to-blog").addEventListener("click",()=>{
+  location.assign("http://127.0.0.1:5500/blog.html");
+ })

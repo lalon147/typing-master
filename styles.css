@@ -192,3 +192,23 @@ button {
     flex-direction: column;
   }
 }
+#go-to-blog{
+  margin:20px auto;
+}
+.blog-container{
+  width: 70%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 1.5rem ;
+}
+.blog{
+  color: white;
+  border: 1px solid whitesmoke;
+  padding: 1.2rem;
+  border-radius: 1rem;
+  
+}
+.blog p{
+  font-size: 1.3rem;
+}
