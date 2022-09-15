@@ -148,5 +148,5 @@ setInterval(() => {
 //Going to blog page
 
  document.getElementById("go-to-blog").addEventListener("click",()=>{
-  location.assign("http://127.0.0.1:5500/blog.html");
+  location.assign("blog.html");
  })
